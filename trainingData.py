@@ -14,6 +14,7 @@ synaptic_weights = 2 * random.random((3, 1)) - 1
 #Outputs current weighting on nodes
 print(synaptic_weights)
 
+#AI is trained for 10k generations
 for iteration in range(10000):
 
   #sigmoid function below
